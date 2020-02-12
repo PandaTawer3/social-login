@@ -16,27 +16,27 @@ If you want to use google, go to the https://console.developers.google.com/
 You should see this page. Click create.
 <br/>
 
-> [Create new project][1]
+> ![Create new project][1]
 
 Enter your project name and organization(if needed).
 <br/>
 Our next step will add **API services** for your project. After the successfully created project you can see something like this:
 
-> [Successfully created project][2]
+> ![Successfully created project][2]
 
 Here click Enable APIs and Services.
 <br>
 And search for the next services: Google+ API and Contacts API
 <br>
 
-> [Google+ API][3]
+> ![Google+ API][3]
 
-> [Contacts API][4]
+> ![Contacts API][4]
 
 Click on service and click enable
 <br>
 
-> [Enable service][5]
+> ![Enable service][5]
 
 After you enable two services to go to the dashboard page and click **Credentials**.
 
@@ -44,27 +44,27 @@ After you enable two services to go to the dashboard page and click **Credential
 
 In the Credentials page click **Create consent screen** and perform the next steps.
 
-> [Create consent screen][7]
+> ![Create consent screen][7]
 
 Choose external and go to next.
 
-> [External][8]
+> ![External][8]
 
 Here you need to enter the project name and authorization domain, this domain cannot be `localhost` or `site.local`. You need to enter something like this `mysite.com`, `mysite.do` - you can add an alias in your /etc/hosts.
 
-> [Project name][9]
+> ![Project name][9]
 
-> [Authorization domain][10]
+> ![Authorization domain][10]
 
 Now you need to create credentials for this return to the **Credentials** page and click **Create credentials** and choose OAuth client ID.
 
-> [Create credentials][11]
+> ![Create credentials][11]
 
-> [OAuth client ID][12]
+> ![OAuth client ID][12]
 
 On the next page choose **Web application**. Enter the name and click **Create**.
 
-> [Web application][13]
+> ![Web application][13]
 
 Now you can see your client_id and client_secret. Save it in the future we will use it.
 <br>
